@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration</title>
+</head>
+<body>
+    <h2 align="center">Student Registration Form</h2>
+  <form action="submit.html" method="post">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="fullname" placeholder="Enter your full name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter valid email address" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter password" required><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br>
+
+    <label for="course">Course:</label>
+    <select id="course" name="course" required>
+      <option value="">-- Select Course --</option>
+      <option value="BCA">BCA</option>
+      <option value="B.Tech">B.Tech</option>
+      <option value="B.Sc">B.Sc</option>
+      <option value="MBA">MBA</option>
+    </select><br>
+
+    <label for="contact">Contact No:</label>
+    <input type="tel" id="contact" name="contact" placeholder="Enter phone number" required><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" placeholder="Enter your address" required></textarea><br>
+
+    <div class="buttons">
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear">
+    </div>
+  </form>
+
+  <footer>
+   &copy 2025 Student Registration Portal
+  </footer>
+    <h2>Uddhav Saraswat 2025B15410066</h2>
+</body>
+</html>
